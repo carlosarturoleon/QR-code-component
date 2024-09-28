@@ -1,0 +1,45 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--slate-300);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 15px;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    text-align: center;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: var(--slate-900);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+p {
+    color: var(--slate-500);
+    margin: 0;
+    padding: 0 15px 15px;
+}
