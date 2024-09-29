@@ -32,7 +32,7 @@ body {
 .qr-code {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: var(--space-300);
+    margin-bottom: var(--space-200);
 }
 
 .text-content {
